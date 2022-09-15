@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/main.css">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+
+  </style>
+</head>
+
+<body>
+
+  <section class="preview">
+    <div class="preview-center">
+
+      <div class="preview-img">
+        <picture>
+          <source class='img' srcset="/images/image-product-mobile.jpg 2x" media="(max-width: 720px)">
+          <source lass='img' srcset="/images/image-product-desktop.jpg 2x" media="(min-width: 721px)">
+          <img src="/images/image-product-mobile.jpg" alt="Preview image" srcset="m/images/image-product-mobile.jpg 2x">
+        </picture>
+
+        <!-- <img src="./images/image-product-mobile.jpg" class="img" alt=""> -->
+      </div>
+
+
+      <div class="preview-content">
+
+        <div class="preview-category">perfume</div>
+
+        <div class="preview-title">
+          Gabrielle Essence <br> Eau De Parfum
+        </div>
+        <p>
+          A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="preview-price">
+          $149.99 <span>$169.99</span>
+        </div>
+        <button class="btn"><img src="./images/icon-cart.svg" class="img-btn" alt=""><span>Add to Cart</span></button>
+
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
