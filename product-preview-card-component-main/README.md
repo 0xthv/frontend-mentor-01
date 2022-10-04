@@ -54,8 +54,6 @@ How to create the rounded photo + border
 
 ### Useful resources
 
-https://stackoverflow.com/questions/15664706/using-margin-padding-to-space-span-from-the-rest-of-the-p
-
 - [Rotate image](https://stackoverflow.com/questions/5087420/how-to-rotate-the-background-image-in-the-container) -
 - [text-rendering: optimizeLegibility;](https://dev.to/mustapha/5-webdev-tips-you-may-want-to-know-2-41e) -
 - [Background image](https://www.sitepoint.com/css3-transform-background-image/) -
