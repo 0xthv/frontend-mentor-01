@@ -1,42 +1,28 @@
-# frontend-mentor-01
-First challenge on frontend mentor
+# Frontend Mentor - Profile card component solution
 
-
-# Frontend Mentor - Product preview card component solution
-
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
 ### The challenge
 
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
-
-### Screenshot
-
-https://imgur.com/a/z9Zuk6C
+- Build out the project to the designs provided
 
 ### Links
 
-- Solution URL: [Solution](https://frolicking-syrniki-000cb4.netlify.app/)
+- [My solution](https://polite-medovik-b9dfb8.netlify.app)
 
 ## My process
 
@@ -44,31 +30,37 @@ https://imgur.com/a/z9Zuk6C
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
-- Normalize CSS 
+- Mobile-first workflow
+- Pseudo Elements
 
 ### What I learned
 
-- Learned how to use Grid for the general layout
-- Used flexbox to align the two items in the button. Is that an overkill solution? 
-- Learned the relative/absolute positioning. Used in the price section. 
-- CSS variables 
-- Normalize.css to remove default browser stylings 
+How to create the rounded photo + border
 
+```css
+.card-photo {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border-radius: 50%;
+  background: var(--white);
+  width: 7rem;
+  height: 7rem;
+  border: 0.375rem solid var(--white);
+}
+```
 
 ### Useful resources
 
-- [Fill div with image](https://stackoverflow.com/a/51487370) - That's the solution i've followed to understand how to fill the image container with the image itself.  
+https://stackoverflow.com/questions/15664706/using-margin-padding-to-space-span-from-the-rest-of-the-p
 
-- [Using SRCSET](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#aa-using-srcset-w-sizes) - My original idea was to use @media screen and (...) to serve different images depending on the device the user is using (is even possible to use only @media screen?). Seems like the current approach is to use Srcset in the html. 
-
+- [Rotate image](https://stackoverflow.com/questions/5087420/how-to-rotate-the-background-image-in-the-container) -
+- [text-rendering: optimizeLegibility;](https://dev.to/mustapha/5-webdev-tips-you-may-want-to-know-2-41e) -
+- [Background image](https://www.sitepoint.com/css3-transform-background-image/) -
+- [Span block](https://stackoverflow.com/questions/15664706/using-margin-padding-to-space-span-from-the-rest-of-the-p)
 
 ## Author
 
 - Frontend Mentor - [@0xthv](https://www.frontendmentor.io/profile/0xthv)
-
-
-## Acknowledgments
-
-Thanks to the professor John Smilga. Used his course to begin my webdev journey and put some of his ideas here.
